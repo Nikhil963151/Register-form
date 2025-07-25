@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register | Safe Creation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <div class="brand">
+        <span class="logo">🤝</span>
+        <div>
+          <h1>Safe Creation</h1>
+          <p class="tagline">Web Development | Learn. Code. Evolve</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Form Section -->
+  <main>
+    <section class="form-section">
+      <h2>📚 Register for a Course</h2>
+      <p class="form-subtext">Create your account.it's free and only takes a minute.💡</p>
+      <form id="registrationForm">
+        <input type="text" id="name" placeholder="👤 Full Name *" required />
+        <input type="email" id="email" placeholder="📧 Email Address *" required />
+        <input type="tel" id="phone" placeholder="📱 Phone Number *" required />
+        <select id="course" required>
+          <option value="">🎓 Select Course *</option>
+          <option value="web">Web Development</option>
+          <option value="dsa">Data Structures & Algorithms</option>
+          <option value="python">Data Science</option>
+        </select>
+        <textarea id="message" placeholder="💬 Why do you want to join? (Optional)"></textarea>
+        <button type="submit">🚀 Register Now</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
